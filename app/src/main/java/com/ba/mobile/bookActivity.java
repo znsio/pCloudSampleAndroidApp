@@ -11,8 +11,6 @@ public class bookActivity extends AppCompatActivity {
 
     Button ecLoginButton;
 
-    zskjdf lsd;lshdl usdkj lsd
-
     Button nonECLoginButton;
 
     Button flightButton;
