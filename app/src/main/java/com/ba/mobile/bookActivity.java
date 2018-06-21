@@ -14,7 +14,7 @@ public class bookActivity extends AppCompatActivity {
     Button nonECLoginButton;
 
     Button flightButton;
-    
+    String test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
