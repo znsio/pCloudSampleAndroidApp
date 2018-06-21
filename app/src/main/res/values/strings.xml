@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pCloudy Appium Demo</string>
+    <string name="pcloudy_testing_demo">pCloudy testing app</string>
+    <string name="find_your_booking"> Find your booking</string>
+    <string name="log_in">Log-in</string>
+    <string name="single_booking_reference"> Single booking reference</string>
+    <string name="book_your_next_flight"> Book your next flight</string>
+    <string name="book_a_flight">Book a flight</string>
+</resources>

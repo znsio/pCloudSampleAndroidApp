@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ba.mobile.LaunchActivity">
+
+    <TextView
+        android:id="@+id/enfuserlicence"
+        android:layout_width="158dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="End user Licence"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="88dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/btn_default_small"
+        android:text="Accept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnrefuse"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/btn_default_small"
+        android:text="Refuse"
+        app:layout_constraintStart_toEndOf="@+id/accept"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="255dp"
+        android:layout_height="338dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text"
+        android:text='Terms and Conditions relating to the pCloudy Application  General By clicking on the "Accept" button, you are agreeing to be bound by these Terms and Conditions. Please review them carefully before giving your acceptance. This application ("pCloudy Application") is owned and operated by pCloudy.com, whose registered office is at #hird Floor, Nishvi Building, 2729, 16th Cross Rd, PWD Quarters, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102. "We", "Our" and "Us" refers to pCloudy.  Data Protection Any personal information you supply to Us when you use the pcloudy Application will be used in accordance with Our Privacy Policy which can be viewed at http://www.pcloudy.com The plcoudy test Application allows you to access certain functionality available on the website. Such access will be governed by the pcloudy website user agreement which can be viewed at http://www.pcloudy.com.'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enfuserlicence" />
+
+</android.support.constraint.ConstraintLayout>

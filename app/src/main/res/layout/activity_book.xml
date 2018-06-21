@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    tools:context="@drawable/ic_launcher_foreground">
+
+    <Button
+        android:id="@+id/ecLoginButton"
+        android:layout_width="227dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/btn_default_small"
+        android:text="@string/log_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/find_your_booking"
+        android:textAllCaps="false"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:textColorLink="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/nonECLoginButton"
+        android:layout_width="227dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/btn_default_small"
+        android:text="Single booking reference"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecLoginButton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/book_your_next_flight"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nonECLoginButton" />
+
+    <Button
+        android:id="@+id/flightButton"
+        android:layout_width="237dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/btn_default_small"
+        android:text="@string/book_a_flight"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="144dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:text="pCloudy Test App"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
