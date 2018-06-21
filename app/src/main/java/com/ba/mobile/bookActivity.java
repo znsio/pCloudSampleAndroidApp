@@ -16,8 +16,8 @@ public class bookActivity extends AppCompatActivity {
     Button flightButton;
     String test;
 
+    // Commented line 
 
-    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
