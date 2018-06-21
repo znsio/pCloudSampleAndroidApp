@@ -15,6 +15,7 @@ public class bookActivity extends AppCompatActivity {
 
     Button flightButton;
 
+    //Test Comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,7 @@ public class bookActivity extends AppCompatActivity {
                 Log.d("PCL","Logined");
                 Intent i = new Intent(getApplicationContext(),BookFlightActivity.class);
                 startActivity(i);
+
             }
         });
 
