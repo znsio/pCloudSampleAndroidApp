@@ -22,9 +22,7 @@ public class bookActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
-
-        // Comment
-        // Comment 2
+        
 
         ecLoginButton = (Button)findViewById(R.id.ecLoginButton);
         nonECLoginButton = (Button)findViewById(R.id.nonECLoginButton);
