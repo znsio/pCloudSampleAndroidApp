@@ -24,6 +24,7 @@ public class bookActivity extends AppCompatActivity {
         setContentView(R.layout.activity_book);
 
         // Comment
+        // Comment 2
 
         ecLoginButton = (Button)findViewById(R.id.ecLoginButton);
         nonECLoginButton = (Button)findViewById(R.id.nonECLoginButton);
