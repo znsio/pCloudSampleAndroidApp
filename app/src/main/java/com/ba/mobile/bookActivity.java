@@ -16,8 +16,7 @@ public class bookActivity extends AppCompatActivity {
     Button flightButton;
     String test;
 
-    // Commented line
-
+    int i = 10;
     // Commented code
 
     @Override
@@ -41,7 +40,6 @@ public class bookActivity extends AppCompatActivity {
 
             }
         });
-
 
         nonECLoginButton.setOnClickListener(new View.OnClickListener()
         {

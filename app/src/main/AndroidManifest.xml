@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:screenOrientation="portrait"
-    package="com.ba.mobile">
+    package="com.ba.mobile"
+    android:screenOrientation="portrait">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LaunchActivity"
+        <activity
+            android:name=".LaunchActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,18 +21,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".bookActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".LoginActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".SingleBookingActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".BookFlightActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".SearchResultActivity"
-            android:screenOrientation="portrait"/>
-
+        <activity
+            android:name=".bookActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SingleBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookFlightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchResultActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
