@@ -27,6 +27,7 @@ public class LaunchActivity extends AppCompatActivity {
             public void onClick(View v){
                 Toast.makeText(getApplicationContext(),"You must accept the T&C for Book Ticket", Toast.LENGTH_LONG).show();
             }
+            // Code Change
         });
 
         btnaccept.setOnClickListener(new View.OnClickListener()
