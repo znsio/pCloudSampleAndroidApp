@@ -37,7 +37,7 @@ public class LaunchActivity extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(),bookActivity.class);
                 startActivity(i);
 
-                /* Dummy code to demonstrate single stepping.*/
+                // Dummy code to demonstrate single stepping.
                 int k = 1 ;
                 k = k * 5 ;
                 k++;
