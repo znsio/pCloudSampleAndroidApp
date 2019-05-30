@@ -18,12 +18,9 @@ public class LaunchActivity extends AppCompatActivity {
         setContentView(R.layout.activity_launch);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
         btnaccept = (Button)findViewById(R.id.accept);
-
         btnrefuse = (Button)findViewById(R.id. btnrefuse);
-
-
+        
         btnrefuse.setOnClickListener(new View.OnClickListener()
         {
             @Override
