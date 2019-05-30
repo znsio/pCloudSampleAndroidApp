@@ -25,7 +25,7 @@ public class LaunchActivity extends AppCompatActivity {
         {
             @Override
             public void onClick(View v){
-                Toast.makeText(getApplicationContext(),"It must accept the T&C for Book Ticket", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"You must accept the T&C for Book Ticket", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -36,6 +36,11 @@ public class LaunchActivity extends AppCompatActivity {
                 Log.d("pCloudy ","Terms and Condition Accepted");
                 Intent i = new Intent(getApplicationContext(),bookActivity.class);
                 startActivity(i);
+
+                /* Dummy code to demonstrate single stepping.*/
+                int k = 1 ;
+                k = k * 5 ;
+                k++;
             }
         });
     }
