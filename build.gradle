@@ -25,3 +25,10 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+task pCloudy(type:Exec) {
+    group = 'pCloudy'
+    description "works with pCloudy"
+    // script "./ruby dtb.rb --email=bikee.bihari@sstsinc.com --api=stcr6bcrcx9c6ssp5mp2bdtw --did=571 --appname=old_school.android.debug__21_.apk"
+    commandLine "./command.sh"
+}
