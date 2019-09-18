@@ -117,9 +117,6 @@ token = authenticate(email,api)
 # Booking Device 
 rid = bookdevice(token, duration , did)
 
-#Executing Adb Commands
-msg = executeadb(token , rid ,"adb shell getprop | grep ro.build.version.release")
-
 sleep(45)
 
 #Installation of apk 
