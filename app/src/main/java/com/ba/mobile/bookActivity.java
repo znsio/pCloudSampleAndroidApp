@@ -34,7 +34,7 @@ public class bookActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Log.d("PCL","Logined");
+                Log.d("PCL","Logged in !!");
                 Intent i = new Intent(getApplicationContext(),BookFlightActivity.class);
                 startActivity(i);
 
