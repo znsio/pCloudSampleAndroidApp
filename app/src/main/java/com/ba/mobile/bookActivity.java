@@ -26,8 +26,8 @@ public class bookActivity extends AppCompatActivity {
         nonECLoginButton = (Button)findViewById(R.id.nonECLoginButton);
         flightButton = (Button)findViewById(R.id.flightButton);
 
-        int i = 0;
-        i = i++;
+        int i = 5;
+        i = i + 1 ;
 
         flightButton.setOnClickListener(new View.OnClickListener()
         {
