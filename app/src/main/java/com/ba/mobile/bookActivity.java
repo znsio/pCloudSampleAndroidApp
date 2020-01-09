@@ -16,7 +16,7 @@ public class bookActivity extends AppCompatActivity {
     Button flightButton;
     String test;
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class bookActivity extends AppCompatActivity {
         flightButton = (Button)findViewById(R.id.flightButton);
 
         int i = 5;
-        i = i + 1 ;
+        i = i ++ ;
 
         flightButton.setOnClickListener(new View.OnClickListener()
         {
