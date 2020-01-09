@@ -24,10 +24,11 @@ public class bookActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
 
+        // Commented Code 
+
         ecLoginButton = (Button)findViewById(R.id.ecLoginButton);
         nonECLoginButton = (Button)findViewById(R.id.nonECLoginButton);
         flightButton = (Button)findViewById(R.id.flightButton);
-
 
         flightButton.setOnClickListener(new View.OnClickListener()
         {
