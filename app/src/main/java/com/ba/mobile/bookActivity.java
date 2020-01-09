@@ -16,19 +16,18 @@ public class bookActivity extends AppCompatActivity {
     Button flightButton;
     String test;
 
-    int i = 10;
-    // Commented code
+    int i = 0;
+    i++;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
 
-        // Commented Code 
-
         ecLoginButton = (Button)findViewById(R.id.ecLoginButton);
         nonECLoginButton = (Button)findViewById(R.id.nonECLoginButton);
         flightButton = (Button)findViewById(R.id.flightButton);
+
 
         flightButton.setOnClickListener(new View.OnClickListener()
         {
