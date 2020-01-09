@@ -27,7 +27,7 @@ public class bookActivity extends AppCompatActivity {
         flightButton = (Button)findViewById(R.id.flightButton);
 
         int i = 0;
-        i++;
+        i = i++;
 
         flightButton.setOnClickListener(new View.OnClickListener()
         {
