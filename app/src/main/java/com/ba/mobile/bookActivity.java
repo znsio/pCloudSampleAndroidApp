@@ -16,8 +16,6 @@ public class bookActivity extends AppCompatActivity {
     Button flightButton;
     String test;
 
-    int i = 0;
-    i++;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +25,9 @@ public class bookActivity extends AppCompatActivity {
         ecLoginButton = (Button)findViewById(R.id.ecLoginButton);
         nonECLoginButton = (Button)findViewById(R.id.nonECLoginButton);
         flightButton = (Button)findViewById(R.id.flightButton);
+
+        int i = 0;
+        i++;
 
         flightButton.setOnClickListener(new View.OnClickListener()
         {
